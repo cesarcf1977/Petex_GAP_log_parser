@@ -1,3 +1,11 @@
+
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Aug 20 19:29:28 2023
+
+@author: César Correa Feria
+"""
+
 #%% Import modules
 import pandas as pd
 import matplotlib.pyplot as plt
