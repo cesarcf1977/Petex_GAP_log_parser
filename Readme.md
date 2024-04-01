@@ -8,7 +8,9 @@ It's a text parsing script that captures GAP's -cumbersome- logging practices du
 The following folders are included:
 
 **01_Data**: Contains two sample log files. One from a real-world model giving all sorts of headaches (GAP_log_1.txt), and a simple textbook model from IPM samples (GAP_log_ideal.txt).
+
 **02_Code**: Contains the main -and only- Python script (gap_log_analyzer.py) and some pictures for the readme.md file.
+
 **03_Output**: Where I store the resulting plots in *.png format.
 
 ## INSTRUCTIONS
