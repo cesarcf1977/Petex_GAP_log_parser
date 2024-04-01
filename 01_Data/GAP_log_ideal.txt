@@ -1,0 +1,783 @@
+Loading MBAL model 'reservoir_a'
+Loading MBAL model 'reservoir_b'
+'Well_A' whp 250 qo 2032.8 qg 0.660767 ql 2625.89
+'Well_B' whp 250 qo 3792.3 qg 2.91104 ql 3793.05
+Pipe 'line_A' p1 250 p2 240.723 qt 43.3977 qo 2032.8 qw 593.094 qg 0.660767 gin 0 
+Pipe 'line_B' p1 250 p2 237.762 qt 59.7504 qo 3792.3 qw 0.755522 qg 2.91104 gin 0 
+Pipe 'pipeline' p1 250 p2 233.157 qt 103.148 qo 5825.09 qw 593.85 qg 3.57181 gin 0 
+'Well_A' whp 250 qo 2032.8 qg 0.660767 ql 2625.89
+'Well_B' whp 250 qo 3792.3 qg 2.91104 ql 3793.05
+Pipe 'line_A' p1 250 p2 240.723 qt 43.3977 qo 2032.8 qw 593.094 qg 0.660767 gin 0 
+Pipe 'line_B' p1 250 p2 237.762 qt 59.7504 qo 3792.3 qw 0.755522 qg 2.91104 gin 0 
+Pipe 'pipeline' p1 250 p2 233.157 qt 103.148 qo 5825.09 qw 593.85 qg 3.57181 gin 0 
+Variable Well 'Well_A' rate reduction value 0.512
+Variable Well 'Well_B' rate reduction value 0.512
+'Well_A' whp 250 qo 7754.5 qg 2.52063 ql 10017
+'Well_B' whp 250 qo 14466.5 qg 11.1047 ql 14469.4
+Pipe 'line_A' p1 250 p2 241.539 qt 43.3977 qo 2032.8 qw 593.094 qg 0.660767 gin 0 
+Pipe 'line_B' p1 250 p2 237.141 qt 59.7504 qo 3792.3 qw 0.755522 qg 2.91104 gin 0 
+Pipe 'pipeline' p1 250 p2 233.345 qt 103.148 qo 5825.09 qw 593.85 qg 3.57181 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -165.549 q2 43.3977 flow balance -122.151
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -227.93 q2 59.7504 flow balance -168.179
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -103.148 q2 103.148 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -103.148 q2 103.148 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 8.46105 dp2 0 pres balance 0.169221
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 12.8591 dp2 0 pres balance 0.257181
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 16.6551 dp2 0 pres balance 0.333102
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 317.578 qo 7512.27 qg 2.44189 ql 9704.07
+'Well_B' whp 371.002 qo 13905.6 qg 10.6742 ql 13908.3
+Pipe 'line_A' p1 317.578 p2 247.082 qt 162.947 qo 7632.6 qw 2226.91 qg 2.481 gin 0 
+Pipe 'line_B' p1 371.002 p2 249.126 qt 223.593 qo 14191.2 qw 2.82725 qg 10.8935 gin 0 
+Pipe 'pipeline' p1 287.349 p2 213.119 qt 386.54 qo 21823.8 qw 2229.74 qg 13.3745 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -160.378 q2 162.947 flow balance 2.56901
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -219.092 q2 223.593 flow balance 4.50101
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -386.54 q2 386.54 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -386.54 q2 386.54 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 70.4958 dp2 30.2288 pres balance 0.80534
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 121.877 dp2 83.6534 pres balance 0.764464
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 74.2302 dp2 37.3491 pres balance 0.737621
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 2
+'Well_A' whp 372.138 qo 7311.58 qg 2.37665 ql 9444.83
+'Well_B' whp 420.082 qo 13645.9 qg 10.4749 ql 13648.7
+Pipe 'line_A' p1 372.138 p2 315.609 qt 158.205 qo 7410.49 qw 2162.11 qg 2.40881 gin 0 
+Pipe 'line_B' p1 420.082 p2 317.499 qt 217.029 qo 13774.6 qw 2.74425 qg 10.5736 gin 0 
+Pipe 'pipeline' p1 313.11 p2 248.444 qt 375.234 qo 21185.1 qw 2164.85 qg 12.9825 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -156.093 q2 158.205 flow balance 2.11164
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -215.002 q2 217.029 flow balance 2.02703
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -375.234 q2 375.234 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -375.234 q2 375.234 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 56.529 dp2 59.0281 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 102.583 dp2 106.972 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 64.6654 dp2 63.1096 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 3
+'Well_A' whp 368.928 qo 7322.78 qg 2.38029 ql 9459.29
+'Well_B' whp 415.391 qo 13671.1 qg 10.4942 ql 13673.8
+Pipe 'line_A' p1 368.928 p2 313.509 qt 156.216 qo 7317.31 qw 2134.92 qg 2.37852 gin 0 
+Pipe 'line_B' p1 415.391 p2 313.481 qt 215.205 qo 13658.8 qw 2.72118 qg 10.4848 gin 0 
+Pipe 'pipeline' p1 313.455 p2 249.97 qt 371.42 qo 20976.1 qw 2137.64 qg 12.8633 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -156.332 q2 156.216 flow balance -0.116613
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -215.398 q2 215.205 flow balance -0.193112
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -371.42 q2 371.42 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -371.42 q2 371.42 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 55.4196 dp2 55.4731 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 101.909 dp2 101.935 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 63.4855 dp2 63.4553 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 4
+'Well_A' whp 369.043 qo 7322.38 qg 2.38016 ql 9458.78
+'Well_B' whp 415.595 qo 13670 qg 10.4933 ql 13672.7
+Pipe 'line_A' p1 369.043 p2 313.555 qt 156.328 qo 7322.56 qw 2136.45 qg 2.38022 gin 0 
+Pipe 'line_B' p1 415.595 p2 313.565 qt 215.389 qo 13670.5 qw 2.72351 qg 10.4938 gin 0 
+Pipe 'pipeline' p1 313.541 p2 249.984 qt 371.717 qo 20993.1 qw 2139.17 qg 12.874 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -156.324 q2 156.328 flow balance 0.00392801
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -215.381 q2 215.389 flow balance 0.00843236
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -371.717 q2 371.717 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -371.717 q2 371.717 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 55.4876 dp2 55.5019 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 102.031 dp2 102.054 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 63.5572 dp2 63.5411 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 369.043 qo 7322.38 qg 2.38016 ql 9458.78
+'Well_B' whp 415.595 qo 13670 qg 10.4933 ql 13672.7
+Pipe 'line_A' p1 369.043 p2 313.555 qt 156.328 qo 7322.56 qw 2136.45 qg 2.38022 gin 0 
+Pipe 'line_B' p1 415.595 p2 313.565 qt 215.389 qo 13670.5 qw 2.72351 qg 10.4938 gin 0 
+Pipe 'pipeline' p1 313.541 p2 249.984 qt 371.717 qo 20993.1 qw 2139.17 qg 12.874 gin 0 
+Variable Well 'Well_A' rate reduction value 0.512
+Variable Well 'Well_B' rate reduction value 0.512
+'Well_A' whp 369.043 qo 3749.06 qg 1.21864 ql 4842.89
+'Well_B' whp 415.595 qo 6999.03 qg 5.37259 ql 7000.43
+Pipe 'line_A' p1 369.043 p2 313.471 qt 156.328 qo 7322.56 qw 2136.45 qg 2.38022 gin 0 
+Pipe 'line_B' p1 415.595 p2 317.399 qt 215.389 qo 13670.5 qw 2.72351 qg 10.4938 gin 0 
+Pipe 'pipeline' p1 313.541 p2 249.23 qt 371.717 qo 20993.1 qw 2139.17 qg 12.874 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -80.0378 q2 156.328 flow balance 76.2899
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -110.275 q2 215.389 flow balance 105.114
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -371.717 q2 371.717 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -371.717 q2 371.717 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 55.5723 dp2 55.5019 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 98.1965 dp2 102.054 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 64.311 dp2 63.5411 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 276.793 qo 3921.63 qg 1.27474 ql 5065.82
+'Well_B' whp 297.25 qo 7297.61 qg 5.60178 ql 7299.06
+Pipe 'line_A' p1 276.793 p2 256.612 qt 83.726 qo 3921.82 qw 1144.24 qg 1.2748 gin 0 
+Pipe 'line_B' p1 297.25 p2 256.149 qt 115.38 qo 7323.03 qw 1.45893 qg 5.6213 gin 0 
+Pipe 'pipeline' p1 270.52 p2 242.043 qt 199.106 qo 11244.9 qw 1145.7 qg 6.8961 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -83.722 q2 83.726 flow balance 0.00405231
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -114.979 q2 115.38 flow balance 0.400615
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -199.106 q2 199.106 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -199.106 q2 199.106 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 20.1806 dp2 6.27333 pres balance 0.278145
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 41.1013 dp2 26.7304 pres balance 0.287418
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 28.4766 dp2 20.5195 pres balance 0.159142
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 2
+'Well_A' whp 296.947 qo 3884.59 qg 1.2627 ql 5017.96
+'Well_B' whp 316.953 qo 7251.05 qg 5.56605 ql 7252.5
+Pipe 'line_A' p1 296.947 p2 278.013 qt 82.9355 qo 3884.79 qw 1133.44 qg 1.26276 gin 0 
+Pipe 'line_B' p1 316.953 p2 279.015 qt 114.251 qo 7251.37 qw 1.44466 qg 5.56629 gin 0 
+Pipe 'pipeline' p1 277.758 p2 249.992 qt 197.186 qo 11136.2 qw 1134.88 qg 6.82906 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -82.9312 q2 82.9355 flow balance 0.00434643
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -114.246 q2 114.251 flow balance 0.00507791
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -197.186 q2 197.186 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -197.186 q2 197.186 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 18.9343 dp2 19.1892 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 37.9383 dp2 39.1951 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 27.7662 dp2 27.7582 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 296.947 qo 3884.59 qg 1.2627 ql 5017.96
+'Well_B' whp 316.953 qo 7251.05 qg 5.56605 ql 7252.5
+Pipe 'line_A' p1 296.947 p2 278.013 qt 82.9355 qo 3884.79 qw 1133.44 qg 1.26276 gin 0 
+Pipe 'line_B' p1 316.953 p2 279.015 qt 114.251 qo 7251.37 qw 1.44466 qg 5.56629 gin 0 
+Pipe 'pipeline' p1 277.758 p2 249.992 qt 197.186 qo 11136.2 qw 1134.88 qg 6.82906 gin 0 
+'Well_A' whp 298.955 qo 4074.92 qg 1.32457 ql 5263.83
+'Well_B' whp 317.498 qo 7249.76 qg 5.56505 ql 7251.2
+'Well_A' whp 297.698 qo 3883.2 qg 1.26225 ql 5016.17
+'Well_B' whp 321.027 qo 7603.42 qg 5.83653 ql 7604.93
+Variable Well 'Well_A' rate reduction value 0.412945
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 296.947 qo 3133.05 qg 1.01841 ql 4047.16
+'Well_B' whp 316.953 qo 14162.2 qg 10.8712 ql 14165
+Pipe 'line_A' p1 296.947 p2 277.78 qt 82.9355 qo 3884.79 qw 1133.44 qg 1.26276 gin 0 
+Pipe 'line_B' p1 316.953 p2 277.255 qt 114.251 qo 7251.37 qw 1.44466 qg 5.56629 gin 0 
+Pipe 'pipeline' p1 277.758 p2 250.113 qt 197.186 qo 11136.2 qw 1134.88 qg 6.82906 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -66.8868 q2 82.9355 flow balance 16.0487
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -223.136 q2 114.251 flow balance -108.885
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -197.186 q2 197.186 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -197.186 q2 197.186 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 19.1678 dp2 19.1892 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 39.698 dp2 39.1951 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 27.6457 dp2 27.7582 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 303.06 qo 3123.93 qg 1.01544 ql 4035.38
+'Well_B' whp 387.9 qo 13817 qg 10.6062 ql 13819.8
+Pipe 'line_A' p1 303.06 p2 289.511 qt 66.6925 qo 3123.95 qw 911.452 qg 1.01545 gin 0 
+Pipe 'line_B' p1 387.9 p2 276.984 qt 217.948 qo 13833 qw 2.75587 qg 10.6184 gin 0 
+Pipe 'pipeline' p1 289.779 p2 244.429 qt 284.641 qo 16956.9 qw 914.208 qg 11.6339 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -66.6921 q2 66.6925 flow balance 0.000393899
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -217.697 q2 217.948 flow balance 0.251319
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -284.641 q2 284.641 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -284.641 q2 284.641 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 13.5492 dp2 13.2819 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 110.917 dp2 98.1219 pres balance 0.255901
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.3495 dp2 39.7786 pres balance 0.111419
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 2
+'Well_A' whp 307.817 qo 3116.81 qg 1.01313 ql 4026.18
+'Well_B' whp 401.496 qo 13745.1 qg 10.551 ql 13747.9
+Pipe 'line_A' p1 307.817 p2 294.42 qt 66.5404 qo 3116.83 qw 909.374 qg 1.01313 gin 0 
+Pipe 'line_B' p1 401.496 p2 295.285 qt 216.569 qo 13745.4 qw 2.73844 qg 10.5513 gin 0 
+Pipe 'pipeline' p1 294.316 p2 249.981 qt 283.11 qo 16862.3 qw 912.112 qg 11.5644 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -66.5401 q2 66.5404 flow balance 0.000256329
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.564 q2 216.569 flow balance 0.00490903
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -283.11 q2 283.11 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -283.11 q2 283.11 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 13.3968 dp2 13.5009 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.211 dp2 107.18 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 44.3353 dp2 44.3162 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 307.817 qo 3116.81 qg 1.01313 ql 4026.18
+'Well_B' whp 401.496 qo 13745.1 qg 10.551 ql 13747.9
+Pipe 'line_A' p1 307.817 p2 294.42 qt 66.5404 qo 3116.83 qw 909.374 qg 1.01313 gin 0 
+Pipe 'line_B' p1 401.496 p2 295.285 qt 216.569 qo 13745.4 qw 2.73844 qg 10.5513 gin 0 
+Pipe 'pipeline' p1 294.316 p2 249.981 qt 283.11 qo 16862.3 qw 912.112 qg 11.5644 gin 0 
+'Well_A' whp 309.46 qo 3270.07 qg 1.06295 ql 4224.15
+'Well_B' whp 402.203 qo 13741.4 qg 10.5481 ql 13744.1
+'Well_A' whp 310.117 qo 3113.37 qg 1.01201 ql 4021.73
+'Well_B' whp 411.67 qo 14375.5 qg 11.0349 ql 14378.4
+Variable Well 'Well_A' rate reduction value 0.313891
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 307.817 qo 2369.17 qg 0.770108 ql 3060.41
+'Well_B' whp 401.496 qo 13745.1 qg 10.551 ql 13747.9
+Pipe 'line_A' p1 307.817 p2 294.126 qt 66.5404 qo 3116.83 qw 909.374 qg 1.01313 gin 0 
+Pipe 'line_B' p1 401.496 p2 295.285 qt 216.569 qo 13745.4 qw 2.73844 qg 10.5513 gin 0 
+Pipe 'pipeline' p1 294.316 p2 249.956 qt 283.11 qo 16862.3 qw 912.112 qg 11.5644 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -50.5789 q2 66.5404 flow balance 15.9615
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.564 q2 216.569 flow balance 0.00490903
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -283.11 q2 283.11 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -283.11 q2 283.11 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 13.6911 dp2 13.5009 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.211 dp2 107.18 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 44.36 dp2 44.3162 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 300.047 qo 2378 qg 0.772978 ql 3071.81
+'Well_B' whp 397.395 qo 13766.9 qg 10.5677 ql 13769.6
+Pipe 'line_A' p1 300.047 p2 289.969 qt 50.7677 qo 2378.02 qw 693.816 qg 0.772982 gin 0 
+Pipe 'line_B' p1 397.395 p2 289.867 qt 216.907 qo 13766.9 qw 2.74271 qg 10.5677 gin 0 
+Pipe 'pipeline' p1 290.737 p2 249.589 qt 267.675 qo 16144.9 qw 696.559 qg 11.3407 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -50.7674 q2 50.7677 flow balance 0.000271905
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.907 q2 216.907 flow balance 0.000185008
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -267.675 q2 267.675 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -267.675 q2 267.675 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 10.0788 dp2 9.31062 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 107.528 dp2 106.658 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 41.148 dp2 40.7367 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 300.047 qo 2378 qg 0.772978 ql 3071.81
+'Well_B' whp 397.395 qo 13766.9 qg 10.5677 ql 13769.6
+Pipe 'line_A' p1 300.047 p2 289.969 qt 50.7677 qo 2378.02 qw 693.816 qg 0.772982 gin 0 
+Pipe 'line_B' p1 397.395 p2 289.867 qt 216.907 qo 13766.9 qw 2.74271 qg 10.5677 gin 0 
+Pipe 'pipeline' p1 290.737 p2 249.589 qt 267.675 qo 16144.9 qw 696.559 qg 11.3407 gin 0 
+'Well_A' whp 301.043 qo 2495.72 qg 0.811241 ql 3223.87
+'Well_B' whp 397.926 qo 13764.1 qg 10.5656 ql 13766.8
+'Well_A' whp 302.317 qo 2375.43 qg 0.772141 ql 3068.49
+'Well_B' whp 407.475 qo 14399 qg 11.053 ql 14401.9
+Variable Well 'Well_A' rate reduction value 0.412945
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 300.047 qo 3128.43 qg 1.01691 ql 4041.19
+'Well_B' whp 397.395 qo 13766.9 qg 10.5677 ql 13769.6
+Pipe 'line_A' p1 300.047 p2 290.211 qt 50.7677 qo 2378.02 qw 693.816 qg 0.772982 gin 0 
+Pipe 'line_B' p1 397.395 p2 289.867 qt 216.907 qo 13766.9 qw 2.74271 qg 10.5677 gin 0 
+Pipe 'pipeline' p1 290.737 p2 249.603 qt 267.675 qo 16144.9 qw 696.559 qg 11.3407 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -66.7881 q2 50.7677 flow balance -16.0204
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.907 q2 216.907 flow balance 0.000185008
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -267.675 q2 267.675 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -267.675 q2 267.675 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 9.83583 dp2 9.31062 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 107.528 dp2 106.658 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 41.1336 dp2 40.7367 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 307.427 qo 3117.4 qg 1.01332 ql 4026.94
+'Well_B' whp 401.703 qo 13744 qg 10.5502 ql 13746.8
+Pipe 'line_A' p1 307.427 p2 294.018 qt 66.5532 qo 3117.42 qw 909.548 qg 1.01333 gin 0 
+Pipe 'line_B' p1 401.703 p2 295.569 qt 216.548 qo 13744.1 qw 2.73816 qg 10.5502 gin 0 
+Pipe 'pipeline' p1 294.624 p2 250.331 qt 283.101 qo 16861.5 qw 912.286 qg 11.5635 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -66.5526 q2 66.5532 flow balance 0.000551187
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.547 q2 216.548 flow balance 0.000594504
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -283.101 q2 283.101 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -283.101 q2 283.101 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 13.4091 dp2 12.8029 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.134 dp2 107.079 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 44.293 dp2 44.624 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 307.427 qo 3117.4 qg 1.01332 ql 4026.94
+'Well_B' whp 401.703 qo 13744 qg 10.5502 ql 13746.8
+Pipe 'line_A' p1 307.427 p2 294.018 qt 66.5532 qo 3117.42 qw 909.548 qg 1.01333 gin 0 
+Pipe 'line_B' p1 401.703 p2 295.569 qt 216.548 qo 13744.1 qw 2.73816 qg 10.5502 gin 0 
+Pipe 'pipeline' p1 294.624 p2 250.331 qt 283.101 qo 16861.5 qw 912.286 qg 11.5635 gin 0 
+'Well_A' whp 309.071 qo 3270.68 qg 1.06315 ql 4224.94
+'Well_B' whp 402.411 qo 13740.3 qg 10.5473 ql 13743
+'Well_A' whp 309.729 qo 3113.95 qg 1.0122 ql 4022.48
+'Well_B' whp 411.591 qo 14376 qg 11.0353 ql 14378.8
+Variable Well 'Well_A' rate reduction value 0.436937
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 307.427 qo 3298.51 qg 1.07219 ql 4260.9
+'Well_B' whp 401.703 qo 13744 qg 10.5502 ql 13746.8
+Pipe 'line_A' p1 307.427 p2 294.065 qt 66.5532 qo 3117.42 qw 909.548 qg 1.01333 gin 0 
+Pipe 'line_B' p1 401.703 p2 295.569 qt 216.548 qo 13744.1 qw 2.73816 qg 10.5502 gin 0 
+Pipe 'pipeline' p1 294.624 p2 250.336 qt 283.101 qo 16861.5 qw 912.286 qg 11.5635 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.4192 q2 66.5532 flow balance -3.86604
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.547 q2 216.548 flow balance 0.000594504
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -283.101 q2 283.101 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -283.101 q2 283.101 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 13.3622 dp2 12.8029 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.134 dp2 107.079 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 44.2881 dp2 44.624 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.596 qo 3295.07 qg 1.07107 ql 4256.45
+'Well_B' whp 401.537 qo 13744.9 qg 10.5509 ql 13747.6
+Pipe 'line_A' p1 309.596 p2 295.198 qt 70.3459 qo 3295.08 qw 961.381 qg 1.07108 gin 0 
+Pipe 'line_B' p1 401.537 p2 295.335 qt 216.561 qo 13744.9 qw 2.73833 qg 10.5509 gin 0 
+Pipe 'pipeline' p1 295.217 p2 250.088 qt 286.907 qo 17040 qw 964.119 qg 11.6219 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.3458 q2 70.3459 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.561 q2 216.561 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.907 q2 286.907 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.907 q2 286.907 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3977 dp2 14.379 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.202 dp2 106.321 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1284 dp2 45.2167 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.596 qo 3295.07 qg 1.07107 ql 4256.45
+'Well_B' whp 401.537 qo 13744.9 qg 10.5509 ql 13747.6
+Pipe 'line_A' p1 309.596 p2 295.198 qt 70.3459 qo 3295.08 qw 961.381 qg 1.07108 gin 0 
+Pipe 'line_B' p1 401.537 p2 295.335 qt 216.561 qo 13744.9 qw 2.73833 qg 10.5509 gin 0 
+Pipe 'pipeline' p1 295.217 p2 250.088 qt 286.907 qo 17040 qw 964.119 qg 11.6219 gin 0 
+'Well_A' whp 311.393 qo 3456.83 qg 1.12366 ql 4465.41
+'Well_B' whp 402.289 qo 13740.9 qg 10.5478 ql 13743.7
+'Well_A' whp 311.908 qo 3291.4 qg 1.06988 ql 4251.71
+'Well_B' whp 411.495 qo 14376.5 qg 11.0357 ql 14379.4
+Variable Well 'Well_A' rate reduction value 0.436937
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.596 qo 3295.07 qg 1.07107 ql 4256.45
+'Well_B' whp 401.537 qo 13744.9 qg 10.5509 ql 13747.6
+Pipe 'line_A' p1 309.596 p2 295.198 qt 70.3459 qo 3295.08 qw 961.381 qg 1.07108 gin 0 
+Pipe 'line_B' p1 401.537 p2 295.335 qt 216.561 qo 13744.9 qw 2.73833 qg 10.5509 gin 0 
+Pipe 'pipeline' p1 295.217 p2 250.088 qt 286.907 qo 17040 qw 964.119 qg 11.6219 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.3458 q2 70.3459 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.561 q2 216.561 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.907 q2 286.907 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.907 q2 286.907 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3977 dp2 14.379 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.202 dp2 106.321 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1284 dp2 45.2167 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.54 qo 3295.16 qg 1.0711 ql 4256.57
+'Well_B' whp 401.377 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.54 p2 295.14 qt 70.3477 qo 3295.16 qw 961.406 qg 1.0711 gin 0 
+Pipe 'line_B' p1 401.377 p2 295.113 qt 216.574 qo 13745.8 qw 2.7385 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.142 p2 250 qt 286.922 qo 17040.9 qw 964.144 qg 11.6226 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.3477 q2 70.3477 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.574 q2 216.574 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.922 q2 286.922 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.922 q2 286.922 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3997 dp2 14.3978 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.264 dp2 106.235 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1423 dp2 45.1423 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.54 qo 3295.16 qg 1.0711 ql 4256.57
+'Well_B' whp 401.377 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.54 p2 295.14 qt 70.3477 qo 3295.16 qw 961.406 qg 1.0711 gin 0 
+Pipe 'line_B' p1 401.377 p2 295.113 qt 216.574 qo 13745.8 qw 2.7385 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.142 p2 250 qt 286.922 qo 17040.9 qw 964.144 qg 11.6226 gin 0 
+'Well_A' whp 311.337 qo 3456.93 qg 1.12369 ql 4465.53
+'Well_B' whp 402.129 qo 13741.8 qg 10.5484 ql 13744.5
+'Well_A' whp 311.854 qo 3291.49 qg 1.06991 ql 4251.82
+'Well_B' whp 411.284 qo 14377.7 qg 11.0366 ql 14380.5
+Variable Well 'Well_A' rate reduction value 0.4365
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.54 qo 3291.87 qg 1.07003 ql 4252.31
+'Well_B' whp 401.377 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.54 p2 295.139 qt 70.3477 qo 3295.16 qw 961.406 qg 1.0711 gin 0 
+Pipe 'line_B' p1 401.377 p2 295.113 qt 216.574 qo 13745.8 qw 2.7385 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.142 p2 250 qt 286.922 qo 17040.9 qw 964.144 qg 11.6226 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2773 q2 70.3477 flow balance 0.0703715
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.574 q2 216.574 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.922 q2 286.922 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.922 q2 286.922 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.4006 dp2 14.3978 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.264 dp2 106.235 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1424 dp2 45.1423 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.507 qo 3291.92 qg 1.07005 ql 4252.38
+'Well_B' whp 401.384 qo 13745.7 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.507 p2 295.126 qt 70.2784 qo 3291.92 qw 960.46 qg 1.07005 gin 0 
+Pipe 'line_B' p1 401.384 p2 295.128 qt 216.574 qo 13745.7 qw 2.73849 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 249.998 qt 286.852 qo 17037.6 qw 963.198 qg 11.6215 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2784 q2 70.2784 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.574 q2 216.574 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.852 q2 286.852 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.852 q2 286.852 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3809 dp2 14.3806 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.256 dp2 106.258 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1276 dp2 45.126 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.507 qo 3291.92 qg 1.07005 ql 4252.38
+'Well_B' whp 401.384 qo 13745.7 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.507 p2 295.126 qt 70.2784 qo 3291.92 qw 960.46 qg 1.07005 gin 0 
+Pipe 'line_B' p1 401.384 p2 295.128 qt 216.574 qo 13745.7 qw 2.73849 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 249.998 qt 286.852 qo 17037.6 qw 963.198 qg 11.6215 gin 0 
+'Well_A' whp 311.301 qo 3453.53 qg 1.12258 ql 4461.14
+'Well_B' whp 402.135 qo 13741.7 qg 10.5484 ql 13744.5
+'Well_A' whp 311.82 qo 3288.25 qg 1.06886 ql 4247.64
+'Well_B' whp 411.313 qo 14377.5 qg 11.0365 ql 14380.4
+Variable Well 'Well_A' rate reduction value 0.436063
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.507 qo 3288.62 qg 1.06898 ql 4248.12
+'Well_B' whp 401.384 qo 13745.7 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.507 p2 295.125 qt 70.2784 qo 3291.92 qw 960.46 qg 1.07005 gin 0 
+Pipe 'line_B' p1 401.384 p2 295.128 qt 216.574 qo 13745.7 qw 2.73849 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 249.998 qt 286.852 qo 17037.6 qw 963.198 qg 11.6215 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2081 q2 70.2784 flow balance 0.070373
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.574 q2 216.574 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.852 q2 286.852 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.852 q2 286.852 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3819 dp2 14.3806 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.256 dp2 106.258 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1277 dp2 45.126 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.473 qo 3288.68 qg 1.069 ql 4248.19
+'Well_B' whp 401.369 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.473 p2 295.111 qt 70.2092 qo 3288.68 qw 959.513 qg 1.069 gin 0 
+Pipe 'line_B' p1 401.369 p2 295.118 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.112 p2 249.998 qt 286.784 qo 17034.5 qw 962.252 qg 11.6205 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2092 q2 70.2092 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3622 dp2 14.3618 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.251 dp2 106.257 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1132 dp2 45.1115 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.473 qo 3288.68 qg 1.069 ql 4248.19
+'Well_B' whp 401.369 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.473 p2 295.111 qt 70.2092 qo 3288.68 qw 959.513 qg 1.069 gin 0 
+Pipe 'line_B' p1 401.369 p2 295.118 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.112 p2 249.998 qt 286.784 qo 17034.5 qw 962.252 qg 11.6205 gin 0 
+'Well_A' whp 311.265 qo 3450.13 qg 1.12148 ql 4456.75
+'Well_B' whp 402.118 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.785 qo 3285.01 qg 1.0678 ql 4243.46
+'Well_B' whp 411.353 qo 14377.3 qg 11.0363 ql 14380.2
+Variable Well 'Well_A' rate reduction value 0.435188
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.473 qo 3282.08 qg 1.06685 ql 4239.67
+'Well_B' whp 401.369 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.473 p2 295.109 qt 70.2092 qo 3288.68 qw 959.513 qg 1.069 gin 0 
+Pipe 'line_B' p1 401.369 p2 295.118 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.112 p2 249.998 qt 286.784 qo 17034.5 qw 962.252 qg 11.6205 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.0684 q2 70.2092 flow balance 0.140749
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3639 dp2 14.3618 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.251 dp2 106.257 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1134 dp2 45.1115 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.405 qo 3282.19 qg 1.06689 ql 4239.81
+'Well_B' whp 401.335 qo 13746 qg 10.5517 ql 13748.7
+Pipe 'line_A' p1 309.405 p2 295.08 qt 70.0707 qo 3282.19 qw 957.621 qg 1.06689 gin 0 
+Pipe 'line_B' p1 401.335 p2 295.084 qt 216.578 qo 13746 qw 2.73855 qg 10.5517 gin 0 
+Pipe 'pipeline' p1 295.081 p2 249.997 qt 286.649 qo 17028.2 qw 960.36 qg 11.6186 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.0707 q2 70.0707 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.578 q2 216.578 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.649 q2 286.649 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.649 q2 286.649 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3248 dp2 14.324 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.252 dp2 106.254 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.0847 dp2 45.0813 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.405 qo 3282.19 qg 1.06689 ql 4239.81
+'Well_B' whp 401.335 qo 13746 qg 10.5517 ql 13748.7
+Pipe 'line_A' p1 309.405 p2 295.08 qt 70.0707 qo 3282.19 qw 957.621 qg 1.06689 gin 0 
+Pipe 'line_B' p1 401.335 p2 295.084 qt 216.578 qo 13746 qw 2.73855 qg 10.5517 gin 0 
+Pipe 'pipeline' p1 295.081 p2 249.997 qt 286.649 qo 17028.2 qw 960.36 qg 11.6186 gin 0 
+'Well_A' whp 311.191 qo 3443.34 qg 1.11927 ql 4447.97
+'Well_B' whp 402.084 qo 13742 qg 10.5486 ql 13744.7
+'Well_A' whp 311.718 qo 3278.54 qg 1.0657 ql 4235.09
+'Well_B' whp 411.28 qo 14377.7 qg 11.0366 ql 14380.6
+Variable Well 'Well_A' rate reduction value 0.436063
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.405 qo 3288.78 qg 1.06903 ql 4248.33
+'Well_B' whp 401.335 qo 13746 qg 10.5517 ql 13748.7
+Pipe 'line_A' p1 309.405 p2 295.082 qt 70.0707 qo 3282.19 qw 957.621 qg 1.06689 gin 0 
+Pipe 'line_B' p1 401.335 p2 295.084 qt 216.578 qo 13746 qw 2.73855 qg 10.5517 gin 0 
+Pipe 'pipeline' p1 295.081 p2 249.997 qt 286.649 qo 17028.2 qw 960.36 qg 11.6186 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2115 q2 70.0707 flow balance -0.140755
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.578 q2 216.578 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.649 q2 286.649 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.649 q2 286.649 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.323 dp2 14.324 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.252 dp2 106.254 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.0845 dp2 45.0813 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.479 qo 3288.67 qg 1.06899 ql 4248.18
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.479 p2 295.117 qt 70.209 qo 3288.67 qw 959.511 qg 1.06899 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.116 p2 250.003 qt 286.784 qo 17034.5 qw 962.249 qg 11.6205 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.209 q2 70.209 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.362 dp2 14.3628 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.238 dp2 106.25 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1127 dp2 45.1161 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.479 qo 3288.67 qg 1.06899 ql 4248.18
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.479 p2 295.117 qt 70.209 qo 3288.67 qw 959.511 qg 1.06899 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.116 p2 250.003 qt 286.784 qo 17034.5 qw 962.249 qg 11.6205 gin 0 
+'Well_A' whp 311.27 qo 3450.12 qg 1.12147 ql 4456.74
+'Well_B' whp 402.116 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.792 qo 3285 qg 1.0678 ql 4243.45
+'Well_B' whp 411.306 qo 14377.6 qg 11.0365 ql 14380.4
+Variable Well 'Well_A' rate reduction value 0.436411
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.479 qo 3291.3 qg 1.06985 ql 4251.58
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.479 p2 295.118 qt 70.209 qo 3288.67 qw 959.511 qg 1.06899 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.116 p2 250.003 qt 286.784 qo 17034.5 qw 962.249 qg 11.6205 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2652 q2 70.209 flow balance -0.05617
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.784 q2 286.784 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3613 dp2 14.3628 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.238 dp2 106.25 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1126 dp2 45.1161 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.503 qo 3291.26 qg 1.06983 ql 4251.53
+'Well_B' whp 401.367 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.503 p2 295.126 qt 70.2643 qo 3291.26 qw 960.267 qg 1.06983 gin 0 
+Pipe 'line_B' p1 401.367 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 250.001 qt 286.84 qo 17037.1 qw 963.006 qg 11.6214 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2643 q2 70.2643 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.377 dp2 14.3773 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.239 dp2 106.241 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1246 dp2 45.126 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.503 qo 3291.26 qg 1.06983 ql 4251.53
+'Well_B' whp 401.367 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.503 p2 295.126 qt 70.2643 qo 3291.26 qw 960.267 qg 1.06983 gin 0 
+Pipe 'line_B' p1 401.367 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 250.001 qt 286.84 qo 17037.1 qw 963.006 qg 11.6214 gin 0 
+'Well_A' whp 311.297 qo 3452.84 qg 1.12236 ql 4460.25
+'Well_B' whp 402.117 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.816 qo 3287.59 qg 1.06864 ql 4246.79
+'Well_B' whp 411.306 qo 14377.6 qg 11.0365 ql 14380.4
+Variable Well 'Well_A' rate reduction value 0.436411
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.503 qo 3291.26 qg 1.06983 ql 4251.53
+'Well_B' whp 401.367 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.503 p2 295.126 qt 70.2643 qo 3291.26 qw 960.267 qg 1.06983 gin 0 
+Pipe 'line_B' p1 401.367 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 250.001 qt 286.84 qo 17037.1 qw 963.006 qg 11.6214 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2643 q2 70.2643 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.377 dp2 14.3773 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.239 dp2 106.241 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1246 dp2 45.126 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.503 qo 3291.26 qg 1.06983 ql 4251.53
+'Well_B' whp 401.367 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.503 p2 295.126 qt 70.2643 qo 3291.26 qw 960.267 qg 1.06983 gin 0 
+Pipe 'line_B' p1 401.367 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 250.001 qt 286.84 qo 17037.1 qw 963.006 qg 11.6214 gin 0 
+'Well_A' whp 311.297 qo 3452.84 qg 1.12236 ql 4460.25
+'Well_B' whp 402.117 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.816 qo 3287.59 qg 1.06864 ql 4246.79
+'Well_B' whp 411.306 qo 14377.6 qg 11.0365 ql 14380.4
+Variable Well 'Well_A' rate reduction value 0.436403
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.503 qo 3291.2 qg 1.06981 ql 4251.45
+'Well_B' whp 401.367 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.503 p2 295.126 qt 70.2643 qo 3291.26 qw 960.267 qg 1.06983 gin 0 
+Pipe 'line_B' p1 401.367 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.126 p2 250.001 qt 286.84 qo 17037.1 qw 963.006 qg 11.6214 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.263 q2 70.2643 flow balance 0.00130934
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.84 q2 286.84 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3771 dp2 14.3773 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.239 dp2 106.241 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1247 dp2 45.126 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.501 qo 3291.2 qg 1.06982 ql 4251.45
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.125 qt 70.2631 qo 3291.2 qw 960.25 qg 1.06982 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.125 p2 250 qt 286.839 qo 17037 qw 962.989 qg 11.6214 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2631 q2 70.2631 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.839 q2 286.839 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.839 q2 286.839 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3768 dp2 14.3767 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.243 dp2 106.239 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1246 dp2 45.1246 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.501 qo 3291.2 qg 1.06982 ql 4251.45
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.125 qt 70.2631 qo 3291.2 qw 960.25 qg 1.06982 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.125 p2 250 qt 286.839 qo 17037 qw 962.989 qg 11.6214 gin 0 
+'Well_A' whp 311.295 qo 3452.78 qg 1.12234 ql 4460.17
+'Well_B' whp 402.114 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.814 qo 3287.54 qg 1.06862 ql 4246.72
+'Well_B' whp 411.326 qo 14377.4 qg 11.0364 ql 14380.3
+Variable Well 'Well_A' rate reduction value 0.436395
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.501 qo 3291.14 qg 1.0698 ql 4251.37
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2631 qo 3291.2 qw 960.25 qg 1.06982 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.125 p2 250 qt 286.839 qo 17037 qw 962.989 qg 11.6214 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2618 q2 70.2631 flow balance 0.00130889
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.839 q2 286.839 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.839 q2 286.839 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3768 dp2 14.3767 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.243 dp2 106.239 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1246 dp2 45.1246 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.501 qo 3291.14 qg 1.0698 ql 4251.37
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.126 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2618 q2 70.2618 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3764 dp2 14.3764 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.24 dp2 106.242 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1243 dp2 45.1242 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.501 qo 3291.14 qg 1.0698 ql 4251.37
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.126 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+'Well_A' whp 311.294 qo 3452.71 qg 1.12232 ql 4460.09
+'Well_B' whp 402.117 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.815 qo 3287.47 qg 1.0686 ql 4246.64
+'Well_B' whp 411.251 qo 14377.9 qg 11.0367 ql 14380.7
+Variable Well 'Well_A' rate reduction value 0.436379
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.501 qo 3291.02 qg 1.06976 ql 4251.21
+'Well_B' whp 401.366 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.126 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2592 q2 70.2618 flow balance 0.00261784
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3765 dp2 14.3764 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.24 dp2 106.242 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1243 dp2 45.1242 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.499 qo 3291.02 qg 1.06976 ql 4251.22
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2592 qo 3291.02 qw 960.197 qg 1.06976 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.835 qo 17036.8 qw 962.936 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2592 q2 70.2592 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.835 q2 286.835 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.835 q2 286.835 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3757 dp2 14.3757 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.243 dp2 106.24 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1238 dp2 45.1237 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.499 qo 3291.02 qg 1.06976 ql 4251.22
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2592 qo 3291.02 qw 960.197 qg 1.06976 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.835 qo 17036.8 qw 962.936 qg 11.6213 gin 0 
+'Well_A' whp 311.293 qo 3452.59 qg 1.12227 ql 4459.92
+'Well_B' whp 402.115 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.813 qo 3287.35 qg 1.06857 ql 4246.48
+'Well_B' whp 411.277 qo 14377.7 qg 11.0366 ql 14380.6
+Variable Well 'Well_A' rate reduction value 0.436395
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 309.499 qo 3291.14 qg 1.0698 ql 4251.38
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2592 qo 3291.02 qw 960.197 qg 1.06976 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.121 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.835 qo 17036.8 qw 962.936 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2619 q2 70.2592 flow balance -0.00261787
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.835 q2 286.835 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.835 q2 286.835 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3757 dp2 14.3757 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.243 dp2 106.24 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1238 dp2 45.1237 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 309.501 qo 3291.14 qg 1.0698 ql 4251.37
+'Well_B' whp 401.366 qo 13745.8 qg 10.5515 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.126 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2618 q2 70.2618 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3764 dp2 14.3764 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.24 dp2 106.242 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1243 dp2 45.1243 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 309.501 qo 3291.14 qg 1.0698 ql 4251.37
+'Well_B' whp 401.366 qo 13745.8 qg 10.5515 ql 13748.6
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.126 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+'Well_A' whp 311.294 qo 3452.71 qg 1.12232 ql 4460.09
+'Well_B' whp 402.117 qo 13741.8 qg 10.5485 ql 13744.6
+'Well_A' whp 311.814 qo 3287.47 qg 1.0686 ql 4246.64
+'Well_B' whp 411.275 qo 14377.7 qg 11.0366 ql 14380.6
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2618 q2 70.2618 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3764 dp2 14.3764 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.24 dp2 106.242 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1243 dp2 45.1243 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Variable Well 'Well_A' rate reduction value 0.436395
+Variable Well 'Well_B' rate reduction value 1
+'Well_A' whp 1233.86 qo 3290.99 qg 1.06975 ql 4251.17
+'Well_B' whp 401.366 qo 13745.8 qg 10.5515 ql 13748.5
+Pipe 'line_A' p1 309.501 p2 295.124 qt 70.2618 qo 3291.14 qw 960.232 qg 1.0698 gin 0 
+Pipe 'line_B' p1 401.366 p2 295.127 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5515 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.837 qo 17037 qw 962.971 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2585 q2 70.2618 flow balance 0.00330899
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.837 q2 286.837 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3765 dp2 14.3764 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.24 dp2 106.242 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1243 dp2 45.1243 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Network solver initialising for iteration step 1
+'Well_A' whp 1233.86 qo 3290.99 qg 1.06975 ql 4251.18
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2587 qo 3290.99 qw 960.19 qg 1.06975 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.834 qo 17036.8 qw 962.928 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2587 q2 70.2587 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3756 dp2 14.3756 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.236 dp2 106.24 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1237 dp2 45.1236 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+Solver solution reached in 1 iterations
+'Well_A' whp 1233.86 qo 3290.99 qg 1.06975 ql 4251.18
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2587 qo 3290.99 qw 960.19 qg 1.06975 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.834 qo 17036.8 qw 962.928 qg 11.6213 gin 0 
+Optimiser finished Code 0
+Max. Pressure Drop Difference 0.0047292 psi
+Max. Mass Balance Difference 2.315132e-8 lbm/sec
+Differences within tolerance
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2587 q2 70.2587 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3756 dp2 14.3756 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.236 dp2 106.24 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1237 dp2 45.1236 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
+'Well_A' whp 1233.86 qo 3290.99 qg 1.06975 ql 4251.18
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2587 qo 3290.99 qw 960.19 qg 1.06975 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.834 qo 17036.8 qw 962.928 qg 11.6213 gin 0 
+'Well_A' whp 1233.86 qo 3290.99 qg 1.06975 ql 4251.18
+'Well_B' whp 401.364 qo 13745.8 qg 10.5516 ql 13748.6
+Pipe 'line_A' p1 309.499 p2 295.124 qt 70.2587 qo 3290.99 qw 960.19 qg 1.06975 gin 0 
+Pipe 'line_B' p1 401.364 p2 295.128 qt 216.575 qo 13745.8 qw 2.73851 qg 10.5516 gin 0 
+Pipe 'pipeline' p1 295.124 p2 250 qt 286.834 qo 17036.8 qw 962.928 qg 11.6213 gin 0 
+Solv Equation[1] Node (0000000010C1A9F0) 'WH_A' q1 -70.2587 q2 70.2587 flow balance 0
+Solv Equation[2] Node (0000000010D38C90) 'WH_B' q1 -216.575 q2 216.575 flow balance 0
+Solv Equation[3] Node (0000000010D3A870) 'Manifold' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[4] Node (0000000010D3C450) 'sep' q1 -286.834 q2 286.834 flow balance 0
+Solv Equation[5] Link (0000000037593F00) 'line_A' dp1 14.3756 dp2 14.3756 pres balance 0
+Solv Equation[6] Link (0000000037598660) 'line_B' dp1 106.236 dp2 106.24 pres balance 0
+Solv Equation[7] Link (000000003759AA10) 'pipeline' dp1 45.1237 dp2 45.1236 pres balance 0
+Solv Equation[8] Link (000000003759CDC0) 'sep to Center Oil' dp1 0 dp2 0 pres balance 0
